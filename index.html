@@ -7,31 +7,23 @@
     <style>
         body {
             margin: 0;
-            padding: 20px;
             background-color: #f9f9f9;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            box-sizing: border-box;
+            height: 100vh;
         }
         iframe {
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            width: 100%;
-            height: 80vh;
-            max-width: 1280px; /* pas untuk desktop */
-            border-radius: 8px;
-        }
-        @media (max-width: 768px) {
-            iframe {
-                height: 70vh; /* lebih pendek di tablet/HP */
-            }
+            border: none;
+            width: 100vw;      /* pas dengan lebar layar */
+            height: 100vh;     /* pas dengan tinggi layar */
+            max-width: 1280px; /* batas maksimal di desktop */
         }
     </style>
 </head>
 <body>
     <iframe 
-        src="https://embed.figma.com/proto/pAO358BQRsG29stuLDOPML/Portfolio-Alda-Ellsa-Faradilla?node-id=1-410&scaling=scale-down-width&content-scaling=fixed&embed-host=share" 
+        src="https://embed.figma.com/proto/pAO358BQRsG29stuLDOPML/Portfolio-Alda-Ellsa-Faradilla?node-id=1-410&scaling=contain&content-scaling=fixed&embed-host=share" 
         allowfullscreen>
     </iframe>
 </body>
