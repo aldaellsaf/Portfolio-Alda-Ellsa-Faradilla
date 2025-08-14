@@ -15,9 +15,11 @@
         }
         iframe {
             border: none;
-            width: 100vw;      /* pas dengan lebar layar */
-            height: 100vh;     /* pas dengan tinggi layar */
-            max-width: 1280px; /* batas maksimal di desktop */
+            border-radius: 8px;
+            /* Rasio 16:9 biar tinggi & lebar proporsional */
+            width: 100%;
+            max-width: 1280px;
+            aspect-ratio: 16 / 9;
         }
     </style>
 </head>
